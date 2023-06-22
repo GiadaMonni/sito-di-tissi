@@ -1,0 +1,105 @@
+    :root{
+        --beige: rgb(142, 131, 116); 
+    }
+
+    header {
+    height: 200vh;
+    background-color: var(--beige) ;
+    }
+
+    .container {
+    /* hide fixed overflow contents */
+    clip: rect(0, auto, auto, 0);
+
+    /* does not work if overflow = visible */
+    overflow: hidden;
+
+    /* only works with absolute positioning */
+    position: absolute;
+
+    /* Make sure containers are full-width and height */
+    height: 100vh;
+    left: 0;
+    width: 100%;
+    
+    
+    /* safari hack */
+    -webkit-mask-image: -webkit-linear-gradient(top, #ffffff 0%,#ffffff 100%);
+    }
+
+    .container_solid {
+    background: var(--beige);
+    
+    /* position this container at the top of its parent element */
+    top: 0;
+    }
+
+    .title_wrapper {
+    position: fixed;
+    display: block;  
+    margin: auto;
+    width: 100%;
+    /* center the text wrapper vertically */
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+    }
+    .title_wrapper a{
+        text-decoration: none;
+    }
+    .title_wrapper h1 {
+    text-align: center;
+    font-size: 64px;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Fraunces', serif;
+    font-weight: 900;
+    
+    }
+
+    .container_solid .title_wrapper h1 {
+    /* the text background */
+    background: url(https://img.freepik.com/free-photo/side-view-female-carpenter-studio-using-electric-saw_23-2148813332.jpg?w=1060&t=st=1687432096~exp=1687432696~hmac=3961f602469d61ecdc66aaca0aef9a968ab9b187047f201b29deb5bdc78a34b0);
+    background-size: 100vw auto;
+    background-position: center;
+    
+    /* clip the text is possible */
+    text-fill-color: transparent;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    
+    /* fallback text color */
+    color: black;
+    }
+
+    .container_image {
+    /* Grab a free image from unsplash */
+    background-image: url(https://img.freepik.com/free-photo/side-view-female-carpenter-studio-using-electric-saw_23-2148813332.jpg?w=1060&t=st=1687432096~exp=1687432696~hmac=3961f602469d61ecdc66aaca0aef9a968ab9b187047f201b29deb5bdc78a34b0);
+    background-size:100vw auto;
+    background-position: center;
+    background-attachment: fixed;
+    /* position the second container below the first container */
+    top: 100vh;
+
+    }
+
+    .container_image .title_wrapper h1 {
+    color: white;
+    }
+
+    section {
+    min-height: 100vh;
+    padding: 2em;
+    margin: auto;
+    max-width: 800px;
+    }
+
+    section h2 {
+    font-family: 'Fraunces', serif;
+    }
+
+    section p {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+    }
