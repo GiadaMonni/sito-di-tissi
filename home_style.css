@@ -16,32 +16,38 @@ nav ul{
     
 }
 a{
-    text-decoration: none;
+      text-decoration: none;
+      
+  }
+  .titolone h1{
+      
+      font-family: 'Fraunces', serif;
+      font-size: 60px;
+      font-weight: bolder;
+      
+      
+    /* the text background */
+    background: url(https://img.freepik.com/free-photo/brown-wooden-textured-flooring-background_53876-129599.jpg?w=996&t=st=1687435813~exp=1687436413~hmac=a3f02f9b332791ae3d0af7feb9d9c52d7ab17d58c8f6c9e3a42ee9917165254f);
+    background-size: 100vw auto;
+    background-position: center;
     
-}
-.titolone h1{
+    /* clip the text is possible */
+    text-fill-color: transparent;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
     
-    font-family: 'Fraunces', serif;
-    font-size: 60px;
-    font-weight: bolder;
-    
-    
-   /* the text background */
-   background: url(https://img.freepik.com/free-photo/brown-wooden-textured-flooring-background_53876-129599.jpg?w=996&t=st=1687435813~exp=1687436413~hmac=a3f02f9b332791ae3d0af7feb9d9c52d7ab17d58c8f6c9e3a42ee9917165254f);
-   background-size: 100vw auto;
-   background-position: center;
-   
-   /* clip the text is possible */
-   text-fill-color: transparent;
-   -webkit-text-fill-color: transparent;
-   background-clip: text;
-   -webkit-background-clip: text;
-   
-   /* fallback text color */
-   color: black
+    /* fallback text color */
+    color: black
+  }
+h3{
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+    color: rgb(181, 181, 150);
+    font-size: 25px;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 p{
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
 }
 
 header{
