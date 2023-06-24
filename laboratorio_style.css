@@ -52,3 +52,14 @@ header{
     background-size: cover;
     height: 85vh;
 }
+.laboratorio{
+    height: 40vh;
+    background-color: antiquewhite;
+}
+img{
+    height: 25vh;
+    margin: 15px;
+}
+.gepp img{
+    height: 40vh;
+}
