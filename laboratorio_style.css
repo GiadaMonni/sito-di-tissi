@@ -1,0 +1,54 @@
+:root{
+    --beige: rgb(142, 131, 116); 
+}
+body{
+    background-color: var(--beige);
+}
+nav{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+nav ul{
+    list-style-type: none;
+    font-family:fantasy;
+    font-size: larger;
+    
+}
+a{
+    text-decoration: none;
+    
+}
+.titolone h1{
+      
+    font-family: 'Fraunces', serif;
+    font-size: 60px;
+    font-weight: bolder;
+    
+    
+  /* the text background */
+  background: url(https://img.freepik.com/free-photo/brown-wooden-textured-flooring-background_53876-129599.jpg?w=996&t=st=1687435813~exp=1687436413~hmac=a3f02f9b332791ae3d0af7feb9d9c52d7ab17d58c8f6c9e3a42ee9917165254f);
+  background-size: 100vw auto;
+  background-position: center;
+  
+  /* clip the text is possible */
+  text-fill-color: transparent;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  
+  /* fallback text color */
+  color: black
+}
+h2{
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+  color: rgb(181, 181, 150);
+  font-size: 25px;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+header{
+    background-image: url(https://img.freepik.com/free-photo/top-view-carpenter-set-tools_23-2148428307.jpg?w=996&t=st=1687436183~exp=1687436783~hmac=821914b008141709a4f279f96881f8424687ce3d0e77c9967c59bf10cc643258);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 85vh;
+}
