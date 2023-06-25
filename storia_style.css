@@ -1,0 +1,67 @@
+:root{
+    --beige: rgb(142, 131, 116); 
+}
+body{
+    background-color: var(--beige);
+}
+nav{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+nav ul{
+    list-style-type: none;
+    font-family:fantasy;
+    font-size: larger;
+    
+}
+    a{
+        text-decoration: none;
+        
+    }
+
+    .titolone h1{
+      
+        font-family: 'Fraunces', serif;
+        font-size: 60px;
+        font-weight: bolder;
+        /* the text background */
+        background: url(https://img.freepik.com/free-photo/colorful-brush-strokes_53876-88679.jpg?w=360&t=st=1687707396~exp=1687707996~hmac=14697b438a90e212c1e0097f3f5b515ea7bd69cc42cf7931785613f8750588e6);
+        background-size: 100vw auto;
+        background-position: center;
+        /* clip the text is possible */
+        text-fill-color: transparent;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        -webkit-background-clip: text;
+        /* fallback text color */
+        color: black
+        }
+    h2{
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+        color: greenyellow;
+        font-size: 25px;
+        text-shadow: -1.5px 0 black, 0 1.5px black, 1.5px 0 black, 0 -1.5px black;
+
+    }
+    header{
+        background-image: url(https://scontent.fblq3-2.fna.fbcdn.net/v/t1.6435-9/89863968_2243878992582575_3928904149575401472_n.jpg?_nc_cat=101&cb=99be929b-59f725be&ccb=1-7&_nc_sid=730e14&_nc_ohc=xBzZHe7KuEsAX8E--rx&_nc_ht=scontent.fblq3-2.fna&oh=00_AfATUMXIvPjiG6z_tWrT0pu0S4R71Kf2h-dpFmzS9Vk-0g&oe=64BFCFD4);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 85vh;
+    }
+    
+    .sax img{
+        height: 80vh;
+        margin: 15px;
+        border-radius: 50%;
+        box-sizing: border-box;
+        box-shadow: 0 15px 25px rgba(0,0,0,.6);
+    }
+
+    .sax2 img{
+        height: 80vh;
+        margin: 15px;
+        box-sizing: border-box;
+        box-shadow: 0 15px 25px rgba(0,0,0,.6);
+    }
