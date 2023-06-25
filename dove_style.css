@@ -1,0 +1,150 @@
+
+:root{--beige: rgb(142, 131, 116); 
+}
+body{
+    background-color: var(--beige);  
+}
+nav{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+nav ul{
+    list-style-type: none;
+    font-family:fantasy;
+    font-size: larger;
+    
+}
+    a{
+        text-decoration: none;
+        
+    }
+
+    .titolone h1{
+      
+        font-family: 'Fraunces', serif;
+        font-size: 60px;
+        font-weight: bolder;
+        /* the text background */
+        background: url(https://img.freepik.com/free-photo/brown-wooden-textured-flooring-background_53876-129599.jpg?w=996&t=st=1687435813~exp=1687436413~hmac=a3f02f9b332791ae3d0af7feb9d9c52d7ab17d58c8f6c9e3a42ee9917165254f);
+        background-size: 100vw auto;
+        background-position: center;
+        /* clip the text is possible */
+        text-fill-color: transparent;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        -webkit-background-clip: text;
+        /* fallback text color */
+        color: black
+        }
+    h2{
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+        color: whitesmoke;
+        font-size: 25px;
+        text-shadow: -1.5px 0 black, 0 1.5px black, 1.5px 0 black, 0 -1.5px black;
+
+    }
+    header{
+        background-image: url(https://scontent.fblq3-1.fna.fbcdn.net/v/t31.18172-8/1957744_745283718839275_1935142907_o.jpg?_nc_cat=108&cb=99be929b-59f725be&ccb=1-7&_nc_sid=5cd70e&_nc_ohc=TlZqK3e5WLIAX_tFD4n&_nc_ht=scontent.fblq3-1.fna&oh=00_AfCxlXIvMiY809fmQpZx0dR-bf1hYj2P7glR4Z3mMKW2Iw&oe=64BFD898);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 85vh;
+    }
+    /* body {
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+      } */
+
+      main {
+        height: 100vh;
+      }
+      
+      .items {
+        position: absolute;
+        top: 200%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        user-select: none;
+      }
+      
+      .items .item {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 500px;
+        height: 500px;
+        border-radius: 50%;
+        overflow: hidden;
+        transition: all 300ms ease-in-out;
+        z-index: -1;
+        opacity: 0;
+      }
+      
+      .item img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+      
+      .item.active {
+        opacity: 1;
+        z-index: 99;
+        box-shadow: 0px 0px 105px -35px rgba(0, 0, 0, 0.75);
+      }
+      
+      .item.prev {
+        z-index: 2;
+        opacity: 0.25;
+        transform: translate(-125%, -50%);
+      }
+      
+      .item.next {
+        z-index: 2;
+        opacity: 0.25;
+        transform: translate(25%, -50%);
+      }
+      
+      .items .button-container {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 275px;
+        z-index: 100;
+      }
+      
+      .button-container .button {
+        color: #fff;
+        font-size: 32px;
+        cursor: pointer;
+        position: relative;
+        opacity: 0.75;
+        transition: all 300ms ease-in-out;
+      }
+      
+      .button-container .button:hover {
+        opacity: 1;
+      }
+      
+      .button-container .button:before {
+        content: "";
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 5px;
+        height: 5px;
+        background-color: rgba(0, 0, 0, 1);
+        border-radius: 50%;
+        z-index: -99;
+      }
+      
+      .button-container .button:nth-child(1) {
+        float: left;
+      }
+      
+      .button-container .button:nth-child(2) {
+        float: right;
+      }
