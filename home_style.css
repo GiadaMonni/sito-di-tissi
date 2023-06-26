@@ -255,7 +255,11 @@ header{
   ** Media Queries
   */
   
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 500px) {
+    .piccolo{
+      display: block !important;
+      
+    }
     .card-column {
       width: 90%;
     }
@@ -265,6 +269,12 @@ header{
     }
     
     .open-content img {
+      height: 250px;
+      width: 350px;
       margin-top: 40px;
     }
+    #open-content-text {
+      width: 350px;
   }
+}
+

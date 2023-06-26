@@ -78,4 +78,14 @@
             transition: all 0.5s;
         }
 
+        @media screen and (max-width: 500px) {
+            .piccolo{
+                display: block !important;
+            }
+            .card{
+                margin: 0 !important;
+                margin-bottom: 15px !important;
+    }
+}
+
 

@@ -148,3 +148,18 @@ nav ul{
       .button-container .button:nth-child(2) {
         float: right;
       }
+
+      @media screen and (max-width: 500px) {
+        .piccolo{
+        display: block !important;
+        }
+        .items {
+          position: absolute;
+          top: 320%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          user-select: none;
+        }
+
+       
+      }

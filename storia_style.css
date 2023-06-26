@@ -65,3 +65,35 @@ nav ul{
         box-sizing: border-box;
         box-shadow: 0 15px 25px rgba(0,0,0,.6);
     }
+
+    @media screen and (max-width: 500px) {
+            .piccolo{
+            display: block !important;
+            }
+            .titolone h1{
+                background: url(https://img.freepik.com/free-photo/blue-yellow-texture_95678-68.jpg?w=900&t=st=1687796242~exp=1687796842~hmac=ca06c37207cd849b5835c4e48ebc2cdb7e40ceb42b3450b2171b832aa85a807d);
+            
+            background-size: 100vw auto;
+        background-position: center;
+        /* clip the text is possible */
+        text-fill-color: transparent;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        -webkit-background-clip: text;
+        /* fallback text color */
+        color: black}
+        .sax img{
+            height: 60vh;
+            margin: 15px;
+            border-radius: 50%;
+            box-sizing: border-box;
+            box-shadow: 0 15px 25px rgba(0,0,0,.6);
+        }
+        .sax2 img{
+            height: 50vh;
+            margin-left: 0!important;
+            margin-right: 0!important;
+            box-sizing: border-box;
+            box-shadow: 0 15px 25px rgba(0,0,0,.6);
+        }
+    }
