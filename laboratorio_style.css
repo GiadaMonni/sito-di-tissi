@@ -64,6 +64,19 @@ img{
     height: 40vh;
 }
 
+@media screen and (min-width: 800px){
+
+    .piccolo{
+        display: block !important;
+    }
+    .laboratorio{
+        height: 520px;
+        margin-left: 0!important;
+        margin-right: 0!important;
+        display: block !important;
+    }
+}
+
 @media screen and (max-width: 500px) {
     .piccolo{
         display: block !important;
