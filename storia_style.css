@@ -13,6 +13,8 @@ nav ul{
     list-style-type: none;
     font-family:fantasy;
     font-size: larger;
+    display: flex;
+    justify-content:center
     
 }
     a{
@@ -26,7 +28,7 @@ nav ul{
         font-size: 60px;
         font-weight: bolder;
         /* the text background */
-        background: url(https://img.freepik.com/free-photo/colorful-brush-strokes_53876-88679.jpg?w=360&t=st=1687707396~exp=1687707996~hmac=14697b438a90e212c1e0097f3f5b515ea7bd69cc42cf7931785613f8750588e6);
+        background: url(/img/titolone.png);
         background-size: 100vw auto;
         background-position: center;
         /* clip the text is possible */
@@ -45,7 +47,7 @@ nav ul{
 
     }
     header{
-        background-image: url(https://scontent.fblq3-2.fna.fbcdn.net/v/t1.6435-9/89863968_2243878992582575_3928904149575401472_n.jpg?_nc_cat=101&cb=99be929b-59f725be&ccb=1-7&_nc_sid=730e14&_nc_ohc=xBzZHe7KuEsAX8E--rx&_nc_ht=scontent.fblq3-2.fna&oh=00_AfATUMXIvPjiG6z_tWrT0pu0S4R71Kf2h-dpFmzS9Vk-0g&oe=64BFCFD4);
+        background-image: url(/img/osteria.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         height: 85vh;
@@ -67,8 +69,8 @@ nav ul{
     }
 
     @media screen and (max-width: 500px) {
-            .piccolo{
-            display: block !important;
+        nav ul{
+            display: block;
             }
             .titolone h1{
                 background: url(https://img.freepik.com/free-photo/blue-yellow-texture_95678-68.jpg?w=900&t=st=1687796242~exp=1687796842~hmac=ca06c37207cd849b5835c4e48ebc2cdb7e40ceb42b3450b2171b832aa85a807d);

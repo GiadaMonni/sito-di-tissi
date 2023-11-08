@@ -45,7 +45,7 @@ nav ul{
 
     }
     header{
-        background-image: url(https://scontent.fblq3-1.fna.fbcdn.net/v/t31.18172-8/1957744_745283718839275_1935142907_o.jpg?_nc_cat=108&cb=99be929b-59f725be&ccb=1-7&_nc_sid=5cd70e&_nc_ohc=TlZqK3e5WLIAX_tFD4n&_nc_ht=scontent.fblq3-1.fna&oh=00_AfCxlXIvMiY809fmQpZx0dR-bf1hYj2P7glR4Z3mMKW2Iw&oe=64BFD898);
+        background-image: url(./img/villatalla.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         height: 85vh;
@@ -150,7 +150,7 @@ nav ul{
       }
 
       @media screen and (max-width: 500px) {
-        .piccolo{
+       nav ul{
         display: block !important;
         }
         .items {
